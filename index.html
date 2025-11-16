@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tiktok-Clone</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="logo">
+                <a href="https://www.tiktok.com/">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Tìm kiếm" />
+            </div>
+
+            <div class="sidebar-menu">
+                <a class="menu" href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>Dành cho bạn</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa fa-compass" aria-hidden="true"></i>
+                    <span>Khám phá</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa fa-user-plus"></i>
+                    <span>Đã follow</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fas fa-user-friends"></i>
+                    <span>Bạn bè</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa fa-video-camera"></i>
+                    <span>Live</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <span>Tin nhắn</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa-regular fa-bell"></i> <span>Hoạt động</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa-regular fa-plus-square"></i>
+                    <span>Tải lên</span>
+                </a>
+                <a class="menu" href="#">
+                    <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                    <span>Thêm</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="video-feed">
+                <div class="video-post" id="video-1">
+                    <iframe src="https://www.youtube.com/embed/uyYAHOZY4_I"
+                        title="Viktor Axelsen vs Ng Ka Long Angus 2024 Malaysia Open" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-actions">
+                    <button class="action-btn">
+                        <i class="fa-solid fa-heart"></i>2M
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa-solid fa-comment"></i> 1.3M
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-bookmark" aria-hidden="true"></i> 500k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-share"></i>264k
+                    </button>
+                </div>
+            </div>
+            <div class="video-feed">
+                <div class="video-post" id="video-2">
+                    <iframe src="https://www.youtube.com/embed/J2tt4kSkoso" title="Ăn bánh kem thôi" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-actions">
+                    <button class="action-btn">
+                        <i class="fa-solid fa-heart"></i>100k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa-solid fa-comment"></i>12k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-bookmark" aria-hidden="true"></i>1k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-share"></i> 798
+                    </button>
+                </div>
+            </div>
+            <div class="video-feed">
+                <div class="video-post" id="video-3">
+                    <iframe src="https://www.youtube.com/embed/GOr-Vr-WVdo"
+                        title="Bóng Rổ Im Lặng ❤️‍🔥🏀💯 #winbasketball #shorts" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="video-actions">
+                    <button class="action-btn">
+                        <i class="fa-solid fa-heart"></i> 1.2M
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa-solid fa-comment"></i> 20k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-bookmark" aria-hidden="true"></i>15k
+                    </button>
+                    <button class="action-btn">
+                        <i class="fa fa-share"></i>5.88k
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="login">
+                <button class="login-btn top-right-login">Đăng nhập</button>
+            </div>
+            <div class="right-bottom-nav">
+                <a href="#video-1" class="nav-link"><button class="nav-btn up"><i
+                            class="fa fa-angle-up"></i></button></a>
+                <a href="#video-2" class="nav-link"><button class="nav-btn down">
+                        <i class="fa fa-angle-down"></i></button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
